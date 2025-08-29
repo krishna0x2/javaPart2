@@ -21,4 +21,6 @@ public class ArraySumAverage {
         return (int)(sum / arr.length);
     }
     // adding more content for the git course practics
+    //in this time we checked the command for the "git config --global core.editor "code --wait"
+
 }
