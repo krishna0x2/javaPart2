@@ -20,5 +20,5 @@ public class ArraySumAverage {
         long sum = sum(arr);
         return (int)(sum / arr.length);
     }
-
+    // adding more content for the git course practics
 }
