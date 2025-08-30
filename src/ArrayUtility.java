@@ -22,4 +22,25 @@ public class ArrayUtility {
         }
         System.out.println();
     }
+    public static int[][] input2DArray(){
+        Scanner input = new Scanner(System.in);
+        int[][] arr = new int[2][2];
+        System.out.print("please enter the number of rows in the array::");
+        int row = input.nextInt();
+        System.out.print("please enter the number of columns in the array::");
+        int column = input.nextInt();
+        int[][] arr2 = new int[row][column];
+
+        int i=0;
+        while(i<row){
+            int j=0;
+            while(j<column){
+                System.out.print("Please enter the Row"+(i+1)+"th and Column "+(j+1)+"th element of the array::");
+                arr2[i][j]=input.nextInt();
+                j++;
+            }
+            i++;
+        }
+        return arr2;
+    }
 }
