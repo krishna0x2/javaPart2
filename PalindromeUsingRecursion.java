@@ -18,6 +18,6 @@ public class PalindromeUsingRecursion {
         }
         String newStr = name.substring(1, lastpos);
 
-        return IsPalindromeString(newStr); // Fixed: use newStr for recursion
+        return IsPalindromeString(newStr); //  use newStr for recursion
     }
 }
